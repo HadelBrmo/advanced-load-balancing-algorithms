@@ -34,7 +34,7 @@ public class ConsistentHashingStrategy implements LoadBalancerStrategy {
         
         int requestHash = request.getClientIp().hashCode();
         
-        SortedMap<Integer, Server> tailMap = hashRing.tailMap(requestHash);
+        SortedMap<Integer, Server> tailMap = hashRing.tailMap(requestHash); //عقارب الساعة 
         
         int ringHash = tailMap.isEmpty() ? hashRing.firstKey() : tailMap.firstKey();
         
