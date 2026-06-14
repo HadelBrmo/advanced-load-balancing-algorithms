@@ -7,7 +7,6 @@ public class Server {
     private final String ipAddress;
     private final int weight;
     
-    //بديل لعدد الاتصالات النشطة
     private final AtomicInteger activeConnections = new AtomicInteger(0);
     private volatile double cpuUsage;
     private volatile long currentLatencyMs;
