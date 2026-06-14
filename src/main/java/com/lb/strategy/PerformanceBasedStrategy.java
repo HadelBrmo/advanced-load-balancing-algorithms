@@ -35,6 +35,7 @@ public class PerformanceBasedStrategy implements LoadBalancerStrategy {
         double cpuScore = 100.0 - server.getCpuUsage(); 
         double connectionScore = 100.0 / (server.getActiveConnections() + 1);
         
+        //الاوزان  الافتراضية حسب اهتمام النظام 
         return (latencyScore * 0.5) + (cpuScore * 0.3) + (connectionScore * 0.2);
     }
     
