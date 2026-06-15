@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-//هي الخوارزمية فيها تكرار كتير للسيرفر الاعلى وزنا 
 
 public class WeightedRoundRobinStrategy implements LoadBalancerStrategy {
     

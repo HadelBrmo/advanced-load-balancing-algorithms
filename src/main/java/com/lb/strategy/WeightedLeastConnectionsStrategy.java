@@ -5,7 +5,6 @@ import com.lb.model.Server;
 import java.util.List;
 import java.util.Optional;
 
-//هون باخد بعين الاعتبار الاتصالات النشطة مع الون يلي هوي قدرة السيرفر 
 
 public class WeightedLeastConnectionsStrategy implements LoadBalancerStrategy {
     

@@ -7,8 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-//(التوجيه التكيفي المبني على التغذية الراجعة).
-//Health Check التقليدي
 
 public class AdaptiveFeedbackStrategy implements LoadBalancerStrategy {
     

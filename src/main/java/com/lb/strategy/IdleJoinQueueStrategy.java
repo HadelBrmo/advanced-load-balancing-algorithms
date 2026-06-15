@@ -5,7 +5,6 @@ import com.lb.model.Server;
 import java.util.*;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-//Load Balancer هاد ما الو شغل السسيرفرات بتشتغل لحالها و بتحط حالها ب queue
 
 public class IdleJoinQueueStrategy implements LoadBalancerStrategy {
     

@@ -5,8 +5,6 @@ import com.lb.model.Server;
 import java.util.List;
 import java.util.Optional;
 
-//التوجيه بناءً على زمن الاستجابة)
-//تركز بشكل أساسي على سرعة تجربة المستخدم (User Experience) وجودة الشبكة.
 
 public class LatencyBasedStrategy implements LoadBalancerStrategy {
     

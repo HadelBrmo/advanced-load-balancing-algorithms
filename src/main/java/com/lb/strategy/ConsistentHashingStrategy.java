@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-//ميزة متقدمة جداً اسمها Virtual Nodes (العقد الافتراضية)
 
 public class ConsistentHashingStrategy implements LoadBalancerStrategy {
     

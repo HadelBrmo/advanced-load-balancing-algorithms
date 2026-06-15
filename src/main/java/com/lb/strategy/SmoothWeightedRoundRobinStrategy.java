@@ -5,8 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-//هون الكود ما بكرر السيرفرات بمصفوفة أبداً، بل بيمشي على نظام "النقاط والتذاكر" الرياضي
-//وزن السيرفر مانو ثابت 
 
 public class SmoothWeightedRoundRobinStrategy implements LoadBalancerStrategy {
     

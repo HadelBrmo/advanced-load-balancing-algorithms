@@ -4,8 +4,6 @@ import com.lb.model.Request;
 import com.lb.model.Server;
 import java.util.*;
 
-//"الجيرة اللامركزية"
-//السيرفر تلقائياً بـ تمرير الطلب إلى أقرب جيرانه في الشبكة
 
 public class ServerMeshStrategy implements LoadBalancerStrategy {
     
